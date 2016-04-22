@@ -12,8 +12,8 @@ This repository contains the **Dockerfile** of [Z3](https://github.com/Z3Prover/
 
 ### Usage for Z3
 
-    docker run -it --rm aggelgian/smt-solvers z3 -in < /path/to/script
+    docker run -i --rm aggelgian/smt-solvers z3 -in < /path/to/script
 
 ### Usage for CVC4
 
-    docker run -it --rm aggelgian/smt-solvers cvc4 --lang smt < /path/to/script
+    docker run -i --rm aggelgian/smt-solvers cvc4 --lang smt < /path/to/script
